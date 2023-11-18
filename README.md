@@ -22,6 +22,15 @@ The Bernoulli number can be obtained using the [Zeta function](https://en.wikipe
 
 $$B_{2n} = -2n * \zeta(1 - 2n)$$
 
+## Usage
+
+```python
+from pi_digits.py_python import pi_nth_digit
+pi_nth_digit(10) # 5
+```
+
+To run tests:
+```bash pytest pi_python.py -s```
 
 ## Credits
 
