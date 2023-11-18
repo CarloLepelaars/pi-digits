@@ -4,8 +4,7 @@ def pi_nth_digit(n):
     def pi_n(n):
         B2n = -2*n * mpmath.zeta(1 - 2*n)
         nominator = 2 * (-1)**(n+1) * mpmath.factorial(2 * n)
-        denominator = 2**(2 * n) * B2n * (1 - 2**(-2 * n)) * (1 - 3**(-2 * n))\
-                                          * (1 - 5**(-2 * n)) * (1 - 7**(-2 * n))
+        denominator = 2**(2 * n) * B2n * (1 - 2**(-2 * n)) * (1 - 3**(-2 * n)) * (1 - 5**(-2 * n)) * (1 - 7**(-2 * n) * (1 - 11**(-2 * n)))
         return (nominator / denominator) ** (1 / (2 * n))
     if n < 0:
         raise ValueError("n must be a non-negative integer")
