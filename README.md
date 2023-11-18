@@ -1,8 +1,8 @@
 # pi-digits
 Compute nth digit of Pi using an asymptotic formula from [Plouffe (2022)](https://arxiv.org/abs/2201.12601). 
 
-Currently implemented in the following programming languages:
-- Python
+Implemented in the following programming languages:
+- Python (Python 3.11+)
 
 
 ## Explanation
@@ -43,5 +43,5 @@ test_pi_python.py -s
 
 This asymptotic formula for calculating the nth digit of pi was discovered by [Simon Plouffe in 2022](https://arxiv.org/abs/2201.12601). The paper also discusses a way to calculate the nth digit of pi using [Euler numbers](https://en.wikipedia.org/wiki/Euler_numbers).
 
-Big thanks to [Martin Bauer](https://twitter.com/martinmbauer/status/1614571838721622022?s=20&t=IznMtorWVeNbjlX-A5obNw) for the inspiration and illustration of this formula.
+Big thanks to [Martin Bauer](https://twitter.com/martinmbauer/status/1614571838721622022?s=20&t=IznMtorWVeNbjlX-A5obNw) for the inspiration and his illustration of this formula.
 
