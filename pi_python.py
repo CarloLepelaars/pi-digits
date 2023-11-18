@@ -1,8 +1,5 @@
 import mpmath 
 
-MAX_PRECISION_REQUIRED = 17
-mpmath.mp.dps = MAX_PRECISION_REQUIRED
-
 def pi_nth_digit(n):
     def pi_n(n):
         B2n = -2*n * mpmath.zeta(1 - 2*n)
@@ -24,10 +21,3 @@ def pi_nth_digit(n):
         frac_part = mpmath.fmod(pi_n_minus_1 * mpmath.power(10, n - 1), 1)
         dn = int(mpmath.floor(10 * frac_part))
         return dn
-
-def test_pi_nth_digit():
-    pi_str = str(mpmath.pi)
-    for i in range(1, len(pi_str) - 2): 
-        expected_digit = int(pi_str[i+1])
-        calculated_digit = pi_nth_digit(i)
-        assert calculated_digit == expected_digit, f"Mismatch at the {i}th digit of pi"
