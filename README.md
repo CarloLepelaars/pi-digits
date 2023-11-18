@@ -25,12 +25,12 @@ $$B_{2n} = -2n * \zeta(1 - 2n)$$
 ## Usage
 
 ```python
-from pi_digits.py_python import pi_nth_digit
+from py_python import pi_nth_digit
 pi_nth_digit(10) # 5
 ```
 
 To run tests:
-```bash pytest pi_python.py -s```
+```pytest test_pi_python.py -s```
 
 ## Credits
 
