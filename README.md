@@ -25,7 +25,7 @@ $$B_{2n} = -2n * \zeta(1 - 2n)$$
 ## Usage
 
 ```python
-from py_python import pi_nth_digit
+from pi_python import pi_nth_digit
 pi_nth_digit(10) # 5
 ```
 
