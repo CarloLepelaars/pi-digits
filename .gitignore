@@ -1,1 +1,5 @@
+# Python
 *.pyc
+
+# Scala
+target

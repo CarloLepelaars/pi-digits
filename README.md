@@ -1,10 +1,12 @@
 # pi-digits
 Compute nth digit of Pi using an asymptotic formula from [Plouffe (2022)](https://arxiv.org/abs/2201.12601). 
 
-Featured in the following programming languages:
+Implemented in the following programming languages:
 - Python
 - Rust
 - Zig
+- Common Lisp
+- Scala
 
 ## Explanation
 
